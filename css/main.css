@@ -1,0 +1,49 @@
+body::before
+{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.dio
+{
+    width: 30%;
+    height: 18em;
+}
+
+.newcolor
+{
+    color: #b3a600;
+}
+
+.infosm
+{
+    width: 100%;
+}
+
+@media (min-width: 768px)
+{
+    .navbar
+    {
+        height: 3.5em;
+    }
+    .navul li
+    {
+        transition: all 0.3s ease 0s;
+    }
+
+    .navul li:hover
+    {
+        border-bottom : 1px solid white;
+    }
+    
+    .newsletter-sec2
+    {
+        width: 50%;
+    }
+    
+    .infosm
+    {
+        width: 33.33333333%;
+    }
+}
